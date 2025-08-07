@@ -49,3 +49,9 @@ a2a-agent-ui/
 ├── README.md
 └── Makefile                        # 통합 빌드 및 실행 명령어
 ```
+
+## backend run 
+```
+pip install -r requirements.txt
+uvicorn app.main:app --reload
+```
